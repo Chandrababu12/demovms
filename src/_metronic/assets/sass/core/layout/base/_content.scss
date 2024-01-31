@@ -1,0 +1,109 @@
+//
+// Content
+//
+
+// Desktop mode
+@include media-breakpoint-up(lg) {
+  .app-content {
+    padding-top: $app-content-padding-y;
+    padding-bottom: $app-content-padding-y;
+    padding-left: $app-content-padding-x;
+    padding-right: $app-content-padding-x;
+  }
+}
+
+// Tablet & mobile modes
+@include media-breakpoint-down(lg) {
+  .app-content {
+    max-width: none;
+    padding-top: $app-content-padding-y-mobile;
+    padding-bottom: $app-content-padding-y-mobile;
+    padding-left: $app-content-padding-x-mobile;
+    padding-right: $app-content-padding-x-mobile;
+  }
+}
+
+@font-face {
+  font-family: 'Strawford';
+  src: url('../fonts/Strawford-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Strawford';
+  src: url('../fonts/Strawford-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Strawford';
+  src: url('../fonts/Strawford-Light.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Strawford';
+  src: url('../fonts/Strawford-LightItalic.ttf') format('truetype');
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Strawford';
+  src: url('../fonts/Strawford-ExtraLight.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Strawford';
+  src: url('../fonts/Strawford-ExtraLightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Strawford';
+  src: url('../fonts/Strawford-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Strawford';
+  src: url('../fonts/Strawford-RegularItalic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Strawford';
+  src: url('../fonts/Strawford-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Strawford';
+  src: url('../fonts/Strawford-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Strawford';
+  src: url('../fonts/Strawford-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Strawford';
+  src: url('../fonts/Strawford-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Strawford';
+  src: url('../fonts/Strawford-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Strawford';
+  src: url('../fonts/Strawford-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}

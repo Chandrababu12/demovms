@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'strawford', sans-serif;
+      src: url('Strawford-Black-Italic.ttf');
+    src: url("Strawford-Black-Italic.ttf") format("ttf"),  
+    url("Strawford-Bold-Italic.ttf") format("ttf");
+      font-weight: bold;
+      font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'strawford', sans-serif;
+      src: url('Strawford-ExtraLight.ttf');
+    src: url("Strawford-ExtraLight\ Italic.ttf") format("ttf");
+      font-weight: Light;
+      font-style: Light;
+  }
+  
+  @font-face {
+    font-family: 'strawford', sans-serif;
+      src: url('Strawford-Medium-Italic.ttf');
+    src: url("Strawford-Medium.ttf") format("ttf");
+      font-weight: Medium;
+      font-style: Medium;
+  }
+  
+  
+  @font-face {
+    font-family: 'strawford', sans-serif;
+      src: url('Strawford-Regular.ttf');
+    src: url("Strawford-Regular-Italic.ttf") format("ttf");
+      font-weight: 500;
+      font-style: normal;
+  }
+  
+  body{
+    font-family: 'Strawford', sans-serif;
+  } 
+/*   
+  
+  * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'strawford', sans-serif;
+    font-weight: 400;
+  }
+   */
