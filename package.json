@@ -1,9 +1,8 @@
 {
-  "homepage": "https://chandrababu12.githup.io/demovms",
+  "homepage": "/metronic8/react/vms",
   "name": "vms",
   "version": "8.1.8",
   "private": true,
-  "homepage": "/metronic8/react/vms",
   "dependencies": {
     "@apollo/client": "^3.8.8",
     "@emotion/react": "^11.11.3",
@@ -31,6 +30,7 @@
     "dayjs": "^1.11.10",
     "devextreme-react": "^23.1.6",
     "formik": "2.2.9",
+    "gh-pages": "^6.1.1",
     "graphql": "^16.8.1",
     "hls": "^0.0.1",
     "hls.js": "^1.4.12",
@@ -104,8 +104,8 @@
     "lint": "prettier --check .",
     "format": "prettier --write .",
     "rtl": "webpack --config=rtl.config.js",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
